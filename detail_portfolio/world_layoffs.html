@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Daniel Kevin</title>
+    
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="../assets/css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/creative.css" type="text/css">
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll"  href="../index.html">Home</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 text-center" style="text-align: left">
+                    <!-- <hr class="light"> -->
+                    <h2 style="font-style: italic">World Layoffs SQL data cleaning and EDA<h2>
+                        <h4>Introduction</h4>
+                        <p class="text-faded" style="font-size: small">
+                            This project contains Data Cleaning and EDA using SQL of the world layoffs dataset.</p>
+                    <h4>Problem</h4>
+                    <p class="text-faded" style="font-size: small">
+                        In Data Analysis, the analyst must ensure that the data is 'clean' before doing any analysis. 'Dirty' data can lead to unreliable, inaccurate and/or misleading results. Garbage in = garbage out.<br>
+                        Here are some steps to prepare the data set for analysis : <br>
+                        
+                        1. copy raw data.<br>
+                        2. Check for duplicate entries and remove them.<br>
+                        3. Remove extra spaces and/or other invalid characters.<br>
+                        4. Check for null or empty values.<br>
+                        5. Remove null value or blank values.</p>
+                    <h4>Data Set Used</h4>
+                    <p class="text-faded" style="font-size: small">
+                        The data used is a collection of layoff data from companies around the world. For the data cleaning and EDA process, I using:<br>
+
+                        1. Basic select statements (select, where, group by).<br>
+                        2. Aggregate functions (count, sum, min, max)<br>
+                        3. Joins<br>
+                        4. CTE's, temp tables and views<br>
+                        5. string & date manipulation functions.<br>
+                        6. Window functions (rank, row_number)<br>
+                    </p>
+                   <a href="https://github.com/danielkevins/full_project_world_layoffs"class="btn btn-primary btn-xl page-scroll" target="_blank">View Repository</a>
+                </div>
+                <div class="col-lg-4 text-center" style="padding-top: 100px">
+                <img src="../assets/img/detail_porto/3_4.png" class="img-responsive" alt="" style="margin :auto">
+                <p>Remove Duplicate</p>
+                <img src="../assets/img/detail_porto/3_2.png" class="img-responsive" alt="" style="margin :auto">
+                <p>Standardize The Data</p>
+                <img src="../assets/img/detail_porto/3_3.png" class="img-responsive" alt="" style="margin :auto">
+                <p>Remove Null Value Or Blank Values</p>
+                <img src="../assets/img/detail_porto/3_1.png" class="img-responsive" alt="" style="margin :auto">
+                <p>EDA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row" class="call-to-action">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Get In Touch!</h2>
+                    <hr class="primary">
+                </div>
+                <div class="col-lg-2 col-lg-offset-3 text-center">
+                    <a href="https://github.com/danielkevins" class="fa fa-github fa-3x wow bounceIn"></a>
+                </div>
+                <div class="col-lg-2  text-center">
+                    <a href="https://www.linkedin.com/in/danilkevins/" class="fa fa-linkedin fa-3x wow bounceIn"></a>
+                </div>
+                <!--div class="col-lg-1 text-center">
+                    <a class="fa fa-phone fa-3x wow bounceIn"></i>
+                </div-->
+                <div class="col-lg-2 text-center">
+                    <a href="https://www.instagram.com/daniel_kevinnss/" class="fa fa-instagram fa-3x wow bounceIn" data-wow-delay=".1s"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="../assets/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../assets/js/jquery.easing.min.js"></script>
+    <script src="../assets/js/jquery.fittext.js"></script>
+    <script src="../assets/js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../assets/js/creative.js"></script>
+
+</body>
+
+</html> 
